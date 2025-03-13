@@ -8,6 +8,8 @@ TagManager:
   - enemigo
   - powerup
   - muerte
+  - golP1
+  - golP2
   layers:
   - Default
   - TransparentFX
