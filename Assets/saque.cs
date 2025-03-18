@@ -20,6 +20,11 @@ public class saque : MonoBehaviour
             pelotaRB.AddForce(Vector2.one*fuerza,ForceMode2D.Impulse);
             playing=true;
         }
+
+        if(scoreP2>=5){
+            Debug.Log("PERDISTE");
+            Time.timeScale=0;//Congelamos el tiempo (el juego)
+        }
     }
 
     void OnTriggerEnter2D(Collider2D collision)
@@ -37,7 +42,6 @@ public class saque : MonoBehaviour
             transform.position=inicio.position;
             scoreP2++;//Le sumamos 1 al score
             textoP2.text="Jugador2: "+scoreP2.ToString();//Cambiamos el texto
-        }
-        
+        }       
     }
 }
