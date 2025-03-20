@@ -9,6 +9,7 @@ public class saque : MonoBehaviour
     public float fuerza;
     public bool playing;
     public Transform inicio;
+    public GameObject victoria,derrota;
     void Start()
     {
         pelotaRB=GetComponent<Rigidbody2D>();//Obtenemos el componente
@@ -24,6 +25,12 @@ public class saque : MonoBehaviour
         if(scoreP2>=5){
             Debug.Log("PERDISTE");
             Time.timeScale=0;//Congelamos el tiempo (el juego)
+            derrota.SetActive(true);//Se activa el panel de DERROTA
+        }
+        if(scoreP1>=5){
+            Debug.Log("GANASTE");
+            Time.timeScale=0;//Congelamos el tiempo (el juego)
+            victoria.SetActive(true);//Se activa el panel de VICTORIA
         }
     }
 
