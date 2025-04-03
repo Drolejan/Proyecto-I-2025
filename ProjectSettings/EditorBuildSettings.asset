@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/PARCIAL2.unity
+    path: Assets/PARCIAL2/PARCIAL2.unity
     guid: d30f93cc73f7e754e9301459cb870943
   - enabled: 1
     path: Assets/ESCENAS/PrimerParcial.unity
     guid: 5b961e428fcafc746b32bca90275d0fb
   - enabled: 1
-    path: Assets/PONG.unity
+    path: Assets/PARCIAL2/PONG.unity
     guid: 1d2eef24bdf2f1147b89d46eae736a0b
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
