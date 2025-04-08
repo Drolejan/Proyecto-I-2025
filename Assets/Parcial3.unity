@@ -222,6 +222,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bala: {fileID: 3616967984422258576, guid: ad0ad8552606d4a49a837b3552af4b79, type: 3}
   origen: {fileID: 1112619483}
+  speedBala: 10
 --- !u!1 &1112619482
 GameObject:
   m_ObjectHideFlags: 0
